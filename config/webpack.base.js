@@ -18,7 +18,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, "../dist"),
-        filename: "./js/[name].js"
+        filename: "./js/[name]-[contentHash:8].js"
     },
     // resolveLoader: {
     //     modules: ['node_modules', path.resolve(__dirname, '../loaders')],
